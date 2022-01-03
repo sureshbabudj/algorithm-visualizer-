@@ -33,12 +33,11 @@ export default function App () {
         generateArray();
     }, []);
 
-    return (<div className="container">
+    return (<div>
         <header>
             <h3>Algorithm Visualizer</h3>
         </header>
-        <main>
-            
+        <main className="container">     
             <div className="row">
                 <div className="col">
                     <h6>Current Array length: {length}</h6>
